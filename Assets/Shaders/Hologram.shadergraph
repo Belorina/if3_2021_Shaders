@@ -11,6 +11,9 @@
         },
         {
             "m_Id": "89ea422c40624284ac682ed12c24f474"
+        },
+        {
+            "m_Id": "1291dd03ebee458ead859e707bf23ebd"
         }
     ],
     "m_Keywords": [],
@@ -86,6 +89,9 @@
         },
         {
             "m_Id": "782ef101b95c40f999cf508ec8346d9f"
+        },
+        {
+            "m_Id": "0f0238bce93b437e9cad919a07f4fbce"
         }
     ],
     "m_GroupDatas": [
@@ -119,6 +125,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "a732fbaa1d0e4f04b33f7cc381458114"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "0f0238bce93b437e9cad919a07f4fbce"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "2c25a45f3a474a0bb875f81a0db64762"
                 },
                 "m_SlotId": 0
             }
@@ -560,6 +580,64 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "0f0238bce93b437e9cad919a07f4fbce",
+    "m_Group": {
+        "m_Id": "238632a40dcf4dcf824e50959baee61d"
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1085.0,
+            "y": 1243.0,
+            "width": 166.0,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "b2fcccb7e378443eab5ec5a51e3da5df"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "1291dd03ebee458ead859e707bf23ebd"
+    }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "1291dd03ebee458ead859e707bf23ebd",
+    "m_Guid": {
+        "m_GuidSerialized": "0ea72576-386a-4c15-9ddf-1182a8cc9d09"
+    },
+    "m_Name": "Flicker Frequency",
+    "m_DefaultReferenceName": "Vector1_1291dd03ebee458ead859e707bf23ebd",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.029999999329447748,
+    "m_FloatType": 1,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "168f9252ef5044f0ba8364cf4989d909",
     "m_Id": 0,
@@ -669,8 +747,8 @@
     "m_ObjectId": "238632a40dcf4dcf824e50959baee61d",
     "m_Title": "Hologram Effect",
     "m_Position": {
-        "x": -1518.999755859375,
-        "y": 570.9998779296875
+        "x": -1519.0,
+        "y": 570.9999389648438
     }
 }
 
@@ -980,7 +1058,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"ecb23393a0d1b424a82fff68a4c00a66\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_Modifiable": true,
@@ -2143,6 +2221,21 @@
         "y": 0.0,
         "z": 0.0
     },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "b2fcccb7e378443eab5ec5a51e3da5df",
+    "m_Id": 0,
+    "m_DisplayName": "Flicker Frequency",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
     "m_Labels": []
 }
 
